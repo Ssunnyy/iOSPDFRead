@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077AD04A1E8B382B0005A87D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 077AD0491E8B382B0005A87D /* main.m */; };
+		077AD04D1E8B382B0005A87D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 077AD04C1E8B382B0005A87D /* AppDelegate.m */; };
+		077AD0501E8B382B0005A87D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077AD04F1E8B382B0005A87D /* ViewController.m */; };
+		077AD0531E8B382B0005A87D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077AD0511E8B382B0005A87D /* Main.storyboard */; };
+		077AD0551E8B382B0005A87D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077AD0541E8B382B0005A87D /* Assets.xcassets */; };
+		077AD0581E8B382B0005A87D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077AD0561E8B382B0005A87D /* LaunchScreen.storyboard */; };
+		077AD0611E8B3AFB0005A87D /* PDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 077AD0601E8B3AFB0005A87D /* PDFView.m */; };
+		077AD0781E8B47660005A87D /* PDFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 077AD0761E8B47660005A87D /* PDFCollectionViewCell.m */; };
+		077AD0791E8B47660005A87D /* PDFCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 077AD0771E8B47660005A87D /* PDFCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		077AD0451E8B382B0005A87D /* CheckPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		077AD0491E8B382B0005A87D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		077AD04B1E8B382B0005A87D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		077AD04C1E8B382B0005A87D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		077AD04E1E8B382B0005A87D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		077AD04F1E8B382B0005A87D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		077AD0521E8B382B0005A87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		077AD0541E8B382B0005A87D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		077AD0571E8B382B0005A87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		077AD0591E8B382B0005A87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077AD05F1E8B3AFB0005A87D /* PDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFView.h; sourceTree = "<group>"; };
+		077AD0601E8B3AFB0005A87D /* PDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFView.m; sourceTree = "<group>"; };
+		077AD0751E8B47660005A87D /* PDFCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFCollectionViewCell.h; sourceTree = "<group>"; };
+		077AD0761E8B47660005A87D /* PDFCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFCollectionViewCell.m; sourceTree = "<group>"; };
+		077AD0771E8B47660005A87D /* PDFCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDFCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077AD0421E8B382B0005A87D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077AD03C1E8B382B0005A87D = {
+			isa = PBXGroup;
+			children = (
+				077AD0471E8B382B0005A87D /* CheckPDF */,
+				077AD0461E8B382B0005A87D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		077AD0461E8B382B0005A87D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				077AD0451E8B382B0005A87D /* CheckPDF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077AD0471E8B382B0005A87D /* CheckPDF */ = {
+			isa = PBXGroup;
+			children = (
+				077AD04B1E8B382B0005A87D /* AppDelegate.h */,
+				077AD04C1E8B382B0005A87D /* AppDelegate.m */,
+				077AD04E1E8B382B0005A87D /* ViewController.h */,
+				077AD04F1E8B382B0005A87D /* ViewController.m */,
+				077AD0751E8B47660005A87D /* PDFCollectionViewCell.h */,
+				077AD0761E8B47660005A87D /* PDFCollectionViewCell.m */,
+				077AD0771E8B47660005A87D /* PDFCollectionViewCell.xib */,
+				077AD05F1E8B3AFB0005A87D /* PDFView.h */,
+				077AD0601E8B3AFB0005A87D /* PDFView.m */,
+				077AD0511E8B382B0005A87D /* Main.storyboard */,
+				077AD0541E8B382B0005A87D /* Assets.xcassets */,
+				077AD0561E8B382B0005A87D /* LaunchScreen.storyboard */,
+				077AD0591E8B382B0005A87D /* Info.plist */,
+				077AD0481E8B382B0005A87D /* Supporting Files */,
+			);
+			path = CheckPDF;
+			sourceTree = "<group>";
+		};
+		077AD0481E8B382B0005A87D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				077AD0491E8B382B0005A87D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		077AD0441E8B382B0005A87D /* CheckPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077AD05C1E8B382B0005A87D /* Build configuration list for PBXNativeTarget "CheckPDF" */;
+			buildPhases = (
+				077AD0411E8B382B0005A87D /* Sources */,
+				077AD0421E8B382B0005A87D /* Frameworks */,
+				077AD0431E8B382B0005A87D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckPDF;
+			productName = CheckPDF;
+			productReference = 077AD0451E8B382B0005A87D /* CheckPDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077AD03D1E8B382B0005A87D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = txby;
+				TargetAttributes = {
+					077AD0441E8B382B0005A87D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DJH3Y73864;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 077AD0401E8B382B0005A87D /* Build configuration list for PBXProject "CheckPDF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 077AD03C1E8B382B0005A87D;
+			productRefGroup = 077AD0461E8B382B0005A87D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				077AD0441E8B382B0005A87D /* CheckPDF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		077AD0431E8B382B0005A87D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077AD0581E8B382B0005A87D /* LaunchScreen.storyboard in Resources */,
+				077AD0551E8B382B0005A87D /* Assets.xcassets in Resources */,
+				077AD0531E8B382B0005A87D /* Main.storyboard in Resources */,
+				077AD0791E8B47660005A87D /* PDFCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077AD0411E8B382B0005A87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077AD0501E8B382B0005A87D /* ViewController.m in Sources */,
+				077AD0781E8B47660005A87D /* PDFCollectionViewCell.m in Sources */,
+				077AD0611E8B3AFB0005A87D /* PDFView.m in Sources */,
+				077AD04D1E8B382B0005A87D /* AppDelegate.m in Sources */,
+				077AD04A1E8B382B0005A87D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		077AD0511E8B382B0005A87D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077AD0521E8B382B0005A87D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		077AD0561E8B382B0005A87D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077AD0571E8B382B0005A87D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		077AD05A1E8B382B0005A87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		077AD05B1E8B382B0005A87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		077AD05D1E8B382B0005A87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJH3Y73864;
+				INFOPLIST_FILE = CheckPDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.txby.CheckPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		077AD05E1E8B382B0005A87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJH3Y73864;
+				INFOPLIST_FILE = CheckPDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.txby.CheckPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077AD0401E8B382B0005A87D /* Build configuration list for PBXProject "CheckPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077AD05A1E8B382B0005A87D /* Debug */,
+				077AD05B1E8B382B0005A87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077AD05C1E8B382B0005A87D /* Build configuration list for PBXNativeTarget "CheckPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077AD05D1E8B382B0005A87D /* Debug */,
+				077AD05E1E8B382B0005A87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 077AD03D1E8B382B0005A87D /* Project object */;
+}
